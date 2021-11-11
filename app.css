@@ -1,0 +1,92 @@
+body {
+  background: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.card {
+  width: 28rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+p {
+  font-size: 16px;
+}
+
+#medio {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0;
+}
+
+.caja {
+  background-color: hsl(225, 100%, 98%);
+  height: 90px;
+  width: auto;
+  border-radius: 1rem;
+  padding: 23px 18px 23px 18px;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.texto {
+  font-weight: 500;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan {
+  font-weight: 900;
+}
+
+.precio {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.change:hover {
+  color: hsl(250, 68%, 61%);
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 0.6rem;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0px 15px 8px rgba(56, 41, 224, 0.2);
+}
+.btn:hover {
+  background-color: hsl(250, 68%, 61%);
+}
+
+.cancel-order:hover {
+  font-weight: 900;
+}
+
+.attribution {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+}
+
+.hero {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
