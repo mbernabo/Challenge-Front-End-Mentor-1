@@ -81,6 +81,7 @@ p {
 
 .cancel-order:hover {
   font-weight: 900;
+  cursor: pointer;
 }
 
 .attribution {
