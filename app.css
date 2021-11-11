@@ -95,3 +95,33 @@ p {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
+
+/* @media (max-width: 400px) {
+  .card {
+    left: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    left: 50%;
+  }
+}
+
+@media (max-width: 853px) {
+  .card {
+    left: 50%;
+  }
+} */
+
+@media (max-width: 853px) {
+  .card {
+    left: 25%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .card {
+    left: 25%;
+  }
+}
